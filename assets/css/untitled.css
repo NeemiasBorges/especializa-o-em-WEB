@@ -1,0 +1,113 @@
+html {
+  font-family: sans-serif;
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.bg-primary {
+  background-color: #05BD9B!important;
+}
+
+body {
+  font-family: Merriweather,Helvetica Neue,Arial,sans-serif;
+  color: #442F68;
+}
+
+b, strong {
+  font-weight: bolder;
+  color: white;
+}
+
+
+hr {
+  max-width: 50px;
+  border-width: 3px;
+  border-color: #D5506F;
+}
+
+.btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show > .btn-primary.dropdown-toggle {
+  color: #442F68;
+  background-color: #D5506F;
+  border-color: #df3611;
+}
+
+.btn-primary:active, .btn-primary:focus, .btn-primary:hover {
+  color: #fff;
+  background-color: #ee4b28!important;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #18384D;
+  text-align: left;
+
+}
+
+@media (min-width:992px) {
+  #mainNav .navbar-nav > li.nav-item > a.nav-link:focus:hover, #mainNav .navbar-nav > li.nav-item > a.nav-link:hover {
+    color: lightgrey;
+      transition: all .5s;
+  }
+}
+
+@media (min-width:992px) {
+  #main {
+    filter: invert(100%);
+      transition: all .5s;
+  }
+}
+
+@media (min-width:992px) {
+  #mainNav .navbar-nav > li.nav-item > a.nav-link, #mainNav .navbar-nav > li.nav-item > a.nav-link:focus {
+    color: white;
+      transition: all .2s;
+  }
+}
+
+@media (min-width:992px) {
+  #mainNav {
+    border-color: transparent;
+    background-color: transparent;
+      transition: all .2s;
+  }
+}
+
+@media (min-width:992px) {
+  #mainNav .img-invert {
+    filter: transparent;
+    background-color: transparent;
+      transition: all .2s;
+  }
+}
+
+@media (min-width:992px) {
+  #mainNav .img-invert {
+  }
+}
+
+#mainNav {
+  background-color: transparent;
+  transition: all .2s;
+}
+
+#mainNav .img-invert {
+  transition: all .2s;
+}
+
+.navbar-shrink .img-inv{
+  filter: invert(100%);
+}
+
+.linha{
+  width: 100%;
+  height: 20px;
+  background-color: #060f14;
+}
+
+
+/* cards dos professores */
