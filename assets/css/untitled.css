@@ -1,3 +1,11 @@
+/*
+Cores:
+Verde:#05BD9B; #004038;
+Roxo:#442F68;
+Laranja:#df3611; ee4b28;
+Azul:#18384D;
+*/
+
 html {
   font-family: sans-serif;
   line-height: 1.15;
@@ -6,7 +14,7 @@ html {
 }
 
 .bg-primary {
-  background-color: #05BD9B!important;
+  background-color: #!important;
 }
 
 body {
@@ -99,15 +107,45 @@ body {
   transition: all .2s;
 }
 
+.img-v{
+  width: 75px;
+}
+
 .navbar-shrink .img-inv{
-  filter: invert(100%);
+filter: invert(70%);
+  transition: all .2s;
 }
-
-.linha{
+/*
+/* efeito de digitação */
+.typewriter{
   width: 100%;
-  height: 20px;
-  background-color: #060f14;
+}
+.typewriter h1 {
+  overflow: hidden;
+  border-right: .13em solid #ee4b28;
+  white-space: nowrap;
+  margin: 0 auto;
+  animation:
+  typing 2.5s steps(40, end),
+  blink-caret .75s step-end infinite;
 }
 
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: #ee4b28; }
+}
+
+
+/* .bloco{
+  width: 80px;
+  height: 80px;
+  background-image: url("./img/logoif_branco.png");
+} */
 
 /* cards dos professores */
