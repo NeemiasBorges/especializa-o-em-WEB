@@ -141,6 +141,11 @@ filter: invert(70%);
   50% { border-color: #ee4b28; }
 }
 
+.setabaixo {
+  width: 30px;
+  filter: invert(100%);
+}
+
 
 /* .bloco{
   width: 80px;
