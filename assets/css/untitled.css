@@ -30,6 +30,11 @@ hr {
   border-color: #219a8d;
 }
 
+#hrbranco{
+  max-width: 50px;
+  border-width: 3px;
+  border-color: white;
+}
 
 body {
   margin: 0;
@@ -37,7 +42,6 @@ body {
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
-
   text-align: left;
 
 }
@@ -60,6 +64,11 @@ body {
   #mainNav .navbar-nav > li.nav-item > a.nav-link, #mainNav .navbar-nav > li.nav-item > a.nav-link:focus {
     color: white;
     transition: all .2s;
+  }
+}
+@media (max-width:992px) {
+  #mainHeader{
+  padding-top:30%;
   }
 }
 
@@ -179,29 +188,20 @@ body {
 
 }
 
+.pa{
+  padding: 1px;
+  font-size: 12px;
+}
 
 
+.img-redondo {
+  height:100%;
+  width:100%;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.borda-img {
+  border: solid 3px #fff;
+}
 
 /* nav-bar */
 
@@ -220,7 +220,7 @@ body {
 }
 #mainNav.navbar-shrink .navbar-nav>li.nav-item>a.nav-link:focus:hover,
 #mainNav.navbar-shrink .navbar-nav>li.nav-item>a.nav-link:hover {
-    color: #18384D
+    color:#219a8d;
 }
 
 
@@ -248,7 +248,7 @@ body {
 
 #mainNav .navbar-nav>li.nav-item>a.nav-link.active,
 #mainNav .navbar-nav>li.nav-item>a.nav-link:focus.active {
-    color: #18384D!important;
+    color: #219a8d!important;
     background-color: transparent
 }
 

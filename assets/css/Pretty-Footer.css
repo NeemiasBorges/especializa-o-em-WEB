@@ -43,7 +43,6 @@ footer {
 
 .fa.footer-contacts-icon {
   background-color: #219a8d;
-
   font-size: 18px;
   width: 38px;
   height: 38px;
@@ -52,6 +51,8 @@ footer {
   line-height: 38px;
   margin: 10px 15px 10px 0;
 }
+
+
 
 span.new-line-span {
   display: block;
@@ -72,14 +73,13 @@ span.new-line-span {
 
 .footer-about p {
   line-height: 20px;
-
   font-size: 13px;
   font-weight: normal;
   margin: 0;
 }
 
 div.social-links {
-  margin-top: 20px;
+  margin-top: 0px;
 
 }
 
