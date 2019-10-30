@@ -79,18 +79,7 @@ body {
   }
 }
 
-@media (min-width:992px) {
-  #mainNav .img-invert {
-    filter: transparent;
-    background-color: transparent;
-    transition: all .2s;
-  }
-}
 
-@media (min-width:992px) {
-  #mainNav .img-invert {
-  }
-}
 
 #mainNav {
   background-color: transparent;
@@ -106,9 +95,8 @@ body {
 }
 
 
-.navbar-shrink .img-inv{
-/* filter: invert(85%); */
-  transition: all .2s;
+.img-inv{
+  transition: all .5s;
 }
 /*
 /* efeito de digitação */

@@ -22,7 +22,6 @@
   <link rel="stylesheet" href="assets/css/.css">
   <link rel="stylesheet" href="assets/css/untitled.css">
 
-  <link rel="stylesheet" href="assets/css/particulas.css">
 
   <link rel="stylesheet" href="./style.css">
   <link rel="stylesheet" href="./style1.css">
@@ -34,13 +33,13 @@
 
 <body id="page-top">
   <nav class="navbar navbar-light navbar-expand-lg fixed-top" id="mainNav">
-    <div class="container"><button data-toggle="collapse" data-target="#navbarResponsive" class="navbar-toggler navbar-toggler-right" type="button" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><i class="fa fa-align-justify"></i></button>
+    <div class="container">
+      <button data-toggle="collapse" data-target="#navbarResponsive" class="navbar-toggler navbar-toggler-right" type="button" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fa fa-align-justify"></i></button>
       <div class="collapse navbar-collapse" id="navbarResponsive">
-        <a class="nav-link js-scroll-trigger" href="#page-top"><img class="img-fluid mr-auto img-inv" width="75px" height="75px" src="assets/img/logoif_branco.png" alt="logo_if"></a>
-        <!-- <div class="bloco" style=" background-image:url("assets/img/logoif_PRETO.png");" width="80px" height="80px"></div> -->
-
-        <!-- tentando colocar a imagem dentro da div acima, não vou usar a tag img pois ela ira sofrer uma animação e assim ficaria bugada (y) -->
-        <div> </div>
+        <a class="nav-link js-scroll-trigger" href="#page-top">
+          <!-- O codigo da imagem mudando de cor esta no creative.js -->
+          <img id="logo" class="img-fluid mr-auto img-inv" width="75px" height="75px" src="assets/img/logoif_branco.png" alt="logo_if"></a>
         <ul class="nav navbar-nav ml-auto">
           <li class="nav-item" role="presentation"><a class="nav-link js-scroll-trigger" href="#docentes">DOCENTES</a></li>
           <li class="nav-item" role="presentation"><a class="nav-link js-scroll-trigger" href="#disciplinas">DISCIPLINAS</a></li>
@@ -54,6 +53,7 @@
 
     <div id="particles-js"></div>
 
+
     <div class="container my-auto" id="mainHeader" data-aos="fade" data-aos-once="true">
       <div class="row">
         <div id="especial-text" class="col-lg-10 mx-auto typewriter">
@@ -63,10 +63,14 @@
       </div>
       <div class="col-lg-8 mx-auto">
         <p class="text-center text-white mb-5 font-weight-bold">O curso de Especialização em Desenvolvimento Web &nbsp;capacita desenvolvedores nas principais metodologias, linguagens e frameworks de desenvolvimento de software da atualidade, com grande profundidade e tudo a partir do início.</p>
-        <a class="circle transpa js-scroll-trigger setaaa" role="button" href="#docentes" ><span class="seta-baixo"><img class="img-circle setabaixo" src="assets/img/setabaixo.png"/></span></a>
+        <a class="circle transpa js-scroll-trigger setaaa" role="button" href="#docentes" >
+          <span class="seta-baixo"><img class="img-circle setabaixo" src="assets/img/setabaixo.png"/></span></a>
       </div>
     </div>
   </header>
+ -->
+
+
   <section id="docentes" class="bg-primary">
     <div id="particles"></div>
     <!-- Section: Team v.4 -->
@@ -618,52 +622,47 @@
   </div>
   <div class="container ">
     <div class="row">
-      <div class="col-md-6 col-lg-3 text-center m-auto">
-        <div class="mx-auto service-box "> <i class="fa fa-4x fa-graduation-cap sr-icons" data-aos="zoom-in" data-aos-duration="150" data-aos-once="true"></i>
-          <h3 class="mb-3 text-disciplin">Carga horária: 382 horas</h3>
+      <div class="col-md-6 col-lg-6 text-center m-auto">
+        <div class="mx-auto service-box "> <i class="fa fa-3x fa-graduation-cap sr-icons" data-aos="zoom-in" data-aos-duration="150" data-aos-once="true"></i>
+          <h3 class="mb-4 text-disciplin">Carga horária: 382 horas</h3>
 
         </div>
         <div class="mx-auto service-box"></div>
       </div>
-      <div class="col-md-6 col-lg-3 text-center m-auto">
-        <div class="mx-auto service-box"> <i class="fa fa-4x fa-heart sr-icons" data-aos="zoom-in" data-aos-duration="300" data-aos-once="true"></i>
-          <h3 class="mb-3 text-disciplin">Duração do curso: 26 meses</h3>
-
-        </div>
+      <div class="col-md-6 col-lg-6 text-center m-auto">
+        <div class="mx-auto service-box"> <i class="fa fa-3x fa-heart sr-icons" data-aos="zoom-in" data-aos-duration="300" data-aos-once="true"></i>
+          <h3 class="mb-4 text-disciplin">Duração do curso: 26 meses</h3></div>
       </div>
-      <div class="col-md-6 col-lg-3 text-center m-auto pt-4">
-        <div class="mx-auto service-box animation-zomm"> <i class="fa fa-4x fa-clock-o sr-icons" data-aos="zoom-in" data-aos-duration="450" data-aos-once="true"></i>
-          <h3 class="mb-3 text-disciplin">Dias e horários:<br>Seg às Sex, das 18h30 às 22h</h3>
-
-        </div>
-      </div>
-
     </div>
-  </div>
-  <div class="container">
     <div class="row">
-      <div class="col-md-6 col-lg-3 text-center  m-auto">
-        <div class="mx-auto service-box"> <i class="fa fa-4x  fa-flag sr-icons" data-aos="zoom-in" data-aos-duration="600" data-aos-once="true"></i>
-          <h3 class="mb-3 text-disciplin">Início das aula: 21/11/2019</h3>
+      <div class="col-md-6 col-lg-6 text-center m-auto pt-4">
+        <div class="mx-auto service-box animation-zomm"> <i class="fa fa-3x fa-clock-o sr-icons" data-aos="zoom-in" data-aos-duration="450" data-aos-once="true"></i>
+          <h3 class="mb-4 text-disciplin">Dias e horários:<br>Seg às Sex, das 18h30 às 22h</h3>
 
         </div>
       </div>
-      <div class="col-md-6 col-lg-3 text-center  m-auto">
-        <div class="mx-auto service-box mt-5"> <i class="fa fa-users fa-4x text-primary sr-icons" data-aos="zoom-in" data-aos-duration="200" data-aos-once="true"></i>
-          <h3 class="mb-3 text-disciplin">Vagas: 40 vagas</h3>
+      <div class="col-md-6 col-lg-6 text-center  m-auto">
+        <div class="mx-auto service-box"> <i class="fa fa-3x  fa-flag sr-icons" data-aos="zoom-in" data-aos-duration="600" data-aos-once="true"></i>
+          <h3 class="mb-4 text-disciplin">Início das aula: 21/11/2019</h3>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+
+      <div class="col-md-6 col-lg-6 text-center  m-auto">
+        <div class="mx-auto service-box mt-5"> <i class="fa fa-users fa-3x text-primary sr-icons" data-aos="zoom-in" data-aos-duration="200" data-aos-once="true"></i>
+          <h3 class="mb-4 text-disciplin">Vagas: 40 vagas</h3>
 
         </div>
-        <div class="mx-auto service-box mt-5"></div>
       </div>
-      <div class="col-md-6 col-lg-3 text-center  m-auto">
-        <div class="mx-auto service-box mt-5"> <i class="fa fa-4x  fa-map-marker sr-icons"  data-aos="zoom-in" data-aos-duration="900" data-aos-once="true"></i>
-          <h3 class="mb-3 text-disciplin">Campus: Itapetininga</h3>
-
+      <div class="col-md-6 col-lg-6 text-center  m-auto">
+        <div class="mx-auto service-box mt-5"> <i class="fa fa-3x  fa-map-marker sr-icons"  data-aos="zoom-in" data-aos-duration="900" data-aos-once="true"></i>
+          <h3 class="mb-4 text-disciplin">Campus: Itapetininga</h3>
         </div>
       </div>
 
     </div>
-  </div>
+
 </section>
 
 
@@ -720,7 +719,8 @@
       <div class="col-md-4 footer-about">
         <h4 class="text-white text-center">Sobre o time de desenvolvimento</h4>
         <p class="text-justify"><em>Somos um grupo de desenvolvimento procurando por novas e criativas soluções para ajudar pessoas com nossos produtos em seus objetivos</em></p>
-        <div class="social-links social-icons pt-3"><a href="https://pt-br.facebook.com/IFSPItapetininga/"><i class="fa fa-facebook"></i></a><a href=""><i class="fa fa-twitter"></i></a><a href="https://github.com/ifsp-itp"><i class="fa fa-github"></i></a></div>
+        <div class="social-links social-icons pt-3"><a href="https://pt-br.facebook.com/IFSPItapetininga/"><i class="fa fa-facebook"></i></a><a href="">
+          <i class="fa fa-twitter"></i></a><a href="https://github.com/Neemoasb/especializa-o-em-WEB"><i class="fa fa-github"></i></a></div>
       </div>
     </div>
   </footer>
@@ -731,6 +731,7 @@
     });
   </script>
   <!-- End: Pretty Footer -->
+  <script src="assets/js/stats.js"></script>
   <script src="assets/js/jquery.min.js"></script>
   <script src="assets/bootstrap/js/bootstrap.min.js"></script>
   <script src="assets/js/bs-animation.js"></script>
